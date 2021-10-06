@@ -3,7 +3,7 @@ import random
 
 arr01 = np.array([[1, 2, 3], [4, 5, 6]])
 
-arr02 = np.arry([0.0, 0.1, 0.2, 0.3, 0.4])
+arr02 = np.array([0.0, 0.1, 0.2, 0.3, 0.4])
 
 for row in arr01:
     print(row)
@@ -16,7 +16,7 @@ for i in arr01.flat:
 
 arr03 = np.zeros(5)
 arr04 = np.ones((2, 4), dtype=int)
-arr05 = np.full((3.5), 13)
+arr05 = np.full((3,5), 13)
 
 
 a = np.array([[random.randint(1, 10) for i in range(5)],
