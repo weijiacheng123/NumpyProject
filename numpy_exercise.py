@@ -48,7 +48,7 @@ print()
 ## Step 6: Using your fee array and salesArray, calculate how much profit Superstore made for each sale after paying credit card fees. Store this in a new array and print it.
 print("-----------------------------------------------   STEP SIX  -----------------------------------------------")
 profitArray = np.subtract(salesArray,feeArray)
-print(profitArray)
+print(f"The profit Superstore made is {profitArray}")
 
 print()
 
@@ -61,6 +61,7 @@ print()
 
 ## Step 8: Superstore has added a 5th cash register who's data is stored in the array newRegister. Add the new register to the original array. Print the updated salesArray.
 print("-----------------------------------------------   STEP EIGHT  -----------------------------------------------")
+print("Add 5th cash register:")
 newRegister = np.array([17.89,13.59,107.89,176.88,56.78])
 salesArray = np.vstack((salesArray,newRegister))
 print(salesArray)
